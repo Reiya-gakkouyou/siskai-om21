@@ -1,0 +1,126 @@
+h1{
+  font-size: 30px;
+}
+div.nav{
+border-bottom:3px solid rgba(255,24,24,0.23);
+  height: auto;
+}
+
+a.nav-link{
+  color: #333333;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+
+}
+
+.sal{
+  padding: 3px;
+  text-align: left;
+}
+
+.card {
+  min-width: 200px;
+}
+.rogo{
+  padding-left: 30px;
+  padding-top: 0px;
+}
+.main{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 600px;
+}
+p.thx{
+  text-align: center;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+max-width: 100%;
+max-height: 100%;
+
+padding-left: 0%;
+padding-right: 0%;
+padding-top: 0%;
+padding-bottom: 0%;
+margin-top: 300px;
+margin-bottom: 20px;
+}
+p.main-text{
+  text-align: center;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+max-width: 100%;
+max-height: 100%;
+
+padding-left: 0%;
+padding-right: 0%;
+padding-top: 0%;
+padding-bottom: 0%;
+margin-top: 220px;
+margin-bottom: 20px;
+}
+
+form.thx-bottan{
+  text-align: center;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+max-width: 100%;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+a.nav-link{
+  color: red;
+  text-align: center;
+  max-width: 100%;
+}
+.card-img-top{
+width: 200px;
+height: 200px;
+}
+img.main{
+  width: 100%;
+   max-width: 200vw;
+   height: 300px;
+}
+	input[type="submit"]{
+    background-color: #003f34;
+  }
+.slideshow {
+	position: relative;
+	overflow: hidden;
+}
+
+/* :::::: slideContents :::::: */
+.slideContents {
+	position: relative;
+	background: lightSeaGreen;
+	text-align: center;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.slideContents section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.slideContents section img {
+	max-width: 100%;
+	padding: 0 50px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+/* :::::: mechanism :::::: */
+.slideContents #slide1 {
+	position: relative;
+}
+.slideContents section {
+	animation: autoplay 30s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+@keyframes autoplay {
+	0%, 16%, 100% { transform: none; }
+	20% { transform: translateX(-100%); }
+	20.001%, 96% { transform: translateX(100%); }
+}
+.slideContents #slide1 { animation-delay: 0s; }
+.slideContents #slide2 { animation-delay: -24s; }
+.slideContents #slide3 { animation-delay: -18s; }
+.slideContents #slide4 { animation-delay: -12s; }
+.slideContents #slide5 { animation-delay: -6s; }
